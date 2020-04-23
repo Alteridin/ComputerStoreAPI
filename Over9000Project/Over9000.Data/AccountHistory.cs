@@ -14,6 +14,6 @@ namespace Over9000.Data
         public int AccountHistoryId { get; set; }
         public int ProductId { get; set; }
         [ForeignKey(nameof(ProductId))]
-        public virtual Product Product { get; set; }
+        public virtual List<Product> Product { get; set; }
     }
 }

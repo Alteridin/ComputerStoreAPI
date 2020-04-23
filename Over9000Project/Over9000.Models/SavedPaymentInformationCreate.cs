@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Over9000.Models
 {
-    public class Class1
+    public class SavedPaymentInformationCreate
     {
     }
 }

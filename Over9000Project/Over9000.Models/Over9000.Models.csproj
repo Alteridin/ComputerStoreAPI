@@ -54,8 +54,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AccountCreate.cs" />
+    <Compile Include="AccountEdit.cs" />
+    <Compile Include="AccountHistoryAdd.cs" />
+    <Compile Include="AccountHistoryEdit.cs" />
+    <Compile Include="AccountHistoryListItem.cs" />
+    <Compile Include="AccountListItem.cs" />
+    <Compile Include="ProductListItem.cs" />
+    <Compile Include="ProductAdd.cs" />
+    <Compile Include="ProductEdit.cs" />
+    <Compile Include="ProductReviewsAdd.cs" />
+    <Compile Include="ProductReviewsEdit.cs" />
+    <Compile Include="ProductReviewsListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SavedPaymentInformationCreate.cs" />
+    <Compile Include="SavedPaymentInformationEdit.cs" />
+    <Compile Include="SavedPaymentInformationListItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -16,8 +16,8 @@ namespace Over9000.Data
         public string UserName { get; set; }
         [Required]
         public Guid OwnerId { get; set; }
-        public int SPInfoId { get; set; }
-        [ForeignKey(nameof(SPInfoId))]
+        public int SavedPaymentInformationId { get; set; }
+        [ForeignKey(nameof(SavedPaymentInformationId))]
         public virtual SavedPaymentInformation SavedPaymentInformation { get; set; }
         public int AccountHistoryId { get; set; }
         [ForeignKey(nameof(AccountHistoryId))]

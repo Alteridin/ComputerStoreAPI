@@ -10,9 +10,9 @@ namespace Over9000.Data
     public class SavedPaymentInformation
     {
         [Key]
-        public int SPInfoId { get; set; }
+        public int SavedPaymentInformationId { get; set; }
         [Required]
-        public string SPInfoName { get; set; }
+        public string SavedPaymentInformationName { get; set; }
         [Required]
         public DateTime ExpirationDate { get; set; }
         [Required]
