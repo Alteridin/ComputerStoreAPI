@@ -88,7 +88,7 @@
     <Compile Include="AccountHistory.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="Product.cs" />
-    <Compile Include="ProductReviews.cs" />
+    <Compile Include="ProductReview.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SavedPaymentInformation.cs" />
   </ItemGroup>

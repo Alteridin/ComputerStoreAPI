@@ -18,8 +18,8 @@ namespace Over9000.Data
         public decimal ProductPrice { get; set; }
         [Required]
         public string ProductDescription { get; set; }
-        public int ProductReviewsId { get; set; }
-        [ForeignKey(nameof(ProductReviewsId))]
-        public virtual ProductReviews ProductReviews { get; set; }
+        public int ProductReviewId { get; set; }
+        [ForeignKey(nameof(ProductReviewId))]
+        public virtual ProductReview ProductReview { get; set; }
     }
 }

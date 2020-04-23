@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Over9000.Data
 {
-    public class ProductReviews
+    public class ProductReview
     {
         [Key]
-        public int ProductReviewsId { get; set; }
+        public int ProductReviewId { get; set; }
         [Required]
         public string ReviewTitle { get; set; }
         [Required]

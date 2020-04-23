@@ -15,6 +15,8 @@ namespace Over9000.Data
         [Required]
         public string UserName { get; set; }
         [Required]
+        public string Email { get; set; }
+        [Required]
         public Guid OwnerId { get; set; }
         public int SavedPaymentInformationId { get; set; }
         [ForeignKey(nameof(SavedPaymentInformationId))]
@@ -24,6 +26,6 @@ namespace Over9000.Data
         public virtual AccountHistory AccountHistory { get; set; }
         public int ProductReviewsId { get; set; }
         [ForeignKey(nameof(ProductReviewsId))]
-        public virtual ProductReviews ProductReviews { get; set; }
+        public virtual ProductReview ProductReviews { get; set; }
     }
 }
