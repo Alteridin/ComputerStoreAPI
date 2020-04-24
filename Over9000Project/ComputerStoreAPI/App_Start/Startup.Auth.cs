@@ -9,7 +9,6 @@ using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
 using ComputerStoreAPI.Providers;
-using ComputerStoreAPI.Models;
 using Over9000.Data;
 
 namespace ComputerStoreAPI
