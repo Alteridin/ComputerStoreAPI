@@ -9,6 +9,6 @@ namespace Over9000.Models
     public class AccountCreate
     {
         public string UserName { get; set; }
-        public string derp { get; set; }
+        public string Derp { get; set; }
     }
 }

@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
 using System.Web.Http.ModelBinding;
-using ComputerStoreAPI;
 using ComputerStoreAPI.Models;
 using ComputerStoreAPI.Providers;
 using ComputerStoreAPI.Results;
@@ -19,7 +18,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using Over9000.Data;
 
-namespace _24HourAPI.Controllers
+namespace ComputerStoreAPI.Controllers
 {
     [Authorize]
     [RoutePrefix("api/Account")]
