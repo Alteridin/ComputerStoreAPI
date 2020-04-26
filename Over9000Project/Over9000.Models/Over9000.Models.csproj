@@ -57,12 +57,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccountCreateModel\AccountCreate.cs" />
-    <Compile Include="AccountCreateModel\AccountEdit.cs" />
+    <Compile Include="AccountModel\AccountCreate.cs" />
+    <Compile Include="AccountModel\AccountEdit.cs" />
     <Compile Include="AccountHistoryModel\AccountHistoryAdd.cs" />
     <Compile Include="AccountHistoryModel\AccountHistoryEdit.cs" />
     <Compile Include="AccountHistoryModel\AccountHistoryListItem.cs" />
-    <Compile Include="AccountCreateModel\AccountListItem.cs" />
+    <Compile Include="AccountModel\AccountListItem.cs" />
     <Compile Include="ProductModel\ProductListItem.cs" />
     <Compile Include="ProductModel\ProductAdd.cs" />
     <Compile Include="ProductModel\ProductEdit.cs" />
@@ -77,6 +77,12 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Over9000.Data\Over9000.Data.csproj">
+      <Project>{6E667C2E-655D-4DEE-9BCC-D9C045E6D5EF}</Project>
+      <Name>Over9000.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
