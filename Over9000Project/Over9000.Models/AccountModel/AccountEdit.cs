@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Over9000.Models
 {
-    public class AccountHistoryEdit
+    public class AccountEdit
     {
+        public int AccountId { get; set; }
+        public string UserName { get; set; }
+        public string Email { get; set; }
     }
 }

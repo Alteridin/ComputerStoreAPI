@@ -57,26 +57,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccountCreate.cs" />
-    <Compile Include="AccountEdit.cs" />
-    <Compile Include="AccountHistoryAdd.cs" />
-    <Compile Include="AccountHistoryEdit.cs" />
-    <Compile Include="AccountHistoryListItem.cs" />
-    <Compile Include="AccountListItem.cs" />
-    <Compile Include="ProductListItem.cs" />
-    <Compile Include="ProductAdd.cs" />
-    <Compile Include="ProductEdit.cs" />
-    <Compile Include="ProductReviewsAdd.cs" />
-    <Compile Include="ProductReviewsEdit.cs" />
-    <Compile Include="ProductReviewsListItem.cs" />
+    <Compile Include="AccountModel\AccountCreate.cs" />
+    <Compile Include="AccountModel\AccountEdit.cs" />
+    <Compile Include="AccountHistoryModel\AccountHistoryAdd.cs" />
+    <Compile Include="AccountHistoryModel\AccountHistoryEdit.cs" />
+    <Compile Include="AccountHistoryModel\AccountHistoryListItem.cs" />
+    <Compile Include="AccountModel\AccountListItem.cs" />
+    <Compile Include="ProductModel\ProductListItem.cs" />
+    <Compile Include="ProductModel\ProductAdd.cs" />
+    <Compile Include="ProductModel\ProductEdit.cs" />
+    <Compile Include="ProductReviewModel\ProductReviewsAdd.cs" />
+    <Compile Include="ProductReviewModel\ProductReviewsEdit.cs" />
+    <Compile Include="ProductReviewModel\ProductReviewsListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SavedPaymentInformationCreate.cs" />
-    <Compile Include="SavedPaymentInformationEdit.cs" />
-    <Compile Include="SavedPaymentInformationListItem.cs" />
+    <Compile Include="SavedPaymentModel\SavedPaymentInformationCreate.cs" />
+    <Compile Include="SavedPaymentModel\SavedPaymentInformationEdit.cs" />
+    <Compile Include="SavedPaymentModel\SavedPaymentInformationListItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Over9000.Data\Over9000.Data.csproj">
+      <Project>{6E667C2E-655D-4DEE-9BCC-D9C045E6D5EF}</Project>
+      <Name>Over9000.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
