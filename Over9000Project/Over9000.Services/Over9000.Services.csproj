@@ -68,6 +68,16 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Over9000.Data\Over9000.Data.csproj">
+      <Project>{6E667C2E-655D-4DEE-9BCC-D9C045E6D5EF}</Project>
+      <Name>Over9000.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Over9000.Models\Over9000.Models.csproj">
+      <Project>{E5A48AFC-D6F4-4C42-8282-56B67E22DF56}</Project>
+      <Name>Over9000.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

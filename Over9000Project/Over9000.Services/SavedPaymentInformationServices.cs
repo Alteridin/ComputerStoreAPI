@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Over9000.Data;
+using Over9000.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +8,50 @@ using System.Threading.Tasks;
 
 namespace Over9000.Services
 {
-    class SavedPaymentInformationServices
+    public class SavedPaymentInformationServices
     {
+        private readonly int _paymentId;
+        public SavedPaymentInformationServices(int paymentId)
+        {
+            _paymentId = paymentId;
+        }
+        public bool CreateReply(SavedPaymentInformationCreate model)
+        {
+            var entity =
+                new SavedPaymentInformation()
+                {
+                    SavedPaymentInformationId = _paymentId,
+                    SavedPaymentInformationName = model.SavedPaymentInformationName,
+                    ExpirationDate = model.ExpirationDate,
+                    CVV = model.CVV
+                };
+            using (var ctx = new ApplicationDbContext())
+            {
+                ctx.SavedPaymentInformations.Add(entity);
+                return ctx.SaveChanges() == 1;
+            }
+        }
+        public IEnumerable<SavedPaymentInformationListItem> GetReply()
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var query =
+                    ctx
+                    .SavedPaymentInformations
+                    .Where(e => e.SavedPaymentInformationId == _paymentId)
+                    .Select(
+                        e =>
+                        new SavedPaymentInformationListItem
+                        {
+                            
+                            SavedPaymentInformationId = e.SavedPaymentInformationId,
+                            SavedPaymentInformationName = e.SavedPaymentInformationName,
+                            ExpirationDate = e.ExpirationDate,
+                            CVV = e.CVV
+                        }
+                        );
+                return query.ToArray();
+            }
+        }
     }
 }
