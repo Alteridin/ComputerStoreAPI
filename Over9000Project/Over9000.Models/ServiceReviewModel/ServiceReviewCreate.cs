@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Over9000.Services
+namespace Over9000.Models.ServiceReviewModel
 {
-    class AccountHistoryServices
+    class ServiceReviewCreate
     {
     }
 }

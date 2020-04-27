@@ -29,8 +29,8 @@ namespace Over9000.Data
         {
             return new ApplicationDbContext();
         }
-        public DbSet<Account> Accounts{ get; set; }
-        public DbSet<AccountHistory> AccountHistories{ get; set; }
+        public DbSet<Service> Services { get; set; }
+        public DbSet<ServiceReview> ServiceReviews { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductReview> ProductReviews{ get; set; }
         public DbSet<SavedPaymentInformation> SavedPaymentInformations { get; set; }

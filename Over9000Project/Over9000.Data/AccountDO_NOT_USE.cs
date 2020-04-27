@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Over9000.Data
+/* namespace Over9000.Data
 {
     public class Account
     {
@@ -24,11 +24,12 @@ namespace Over9000.Data
         public int SavedPaymentInformationId { get; set; }
         [ForeignKey(nameof(SavedPaymentInformationId))]
         public virtual SavedPaymentInformation SavedPaymentInformation { get; set; }
-        public int AccountHistoryId { get; set; }
-        [ForeignKey(nameof(AccountHistoryId))]
-        public virtual AccountHistory AccountHistory { get; set; }
-        public int ProductReviewsId { get; set; }
-        [ForeignKey(nameof(ProductReviewsId))]
-        public virtual ProductReview ProductReviews { get; set; }
+        public int ProductId { get; set; }
+        [ForeignKey(nameof(ProductId))]
+        public virtual List<Product> Product { get; set; }
+        public int ProductReviewId { get; set; }
+        [ForeignKey(nameof(ProductReviewId))]
+        public virtual ProductReview ProductReview { get; set; }
     }
 }
+*/

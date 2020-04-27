@@ -57,12 +57,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccountModel\AccountCreate.cs" />
-    <Compile Include="AccountModel\AccountEdit.cs" />
-    <Compile Include="AccountHistoryModel\AccountHistoryAdd.cs" />
-    <Compile Include="AccountHistoryModel\AccountHistoryEdit.cs" />
-    <Compile Include="AccountHistoryModel\AccountHistoryListItem.cs" />
-    <Compile Include="AccountModel\AccountListItem.cs" />
+    <Compile Include="AccountModelDO_NOT_USE\AccountCreate.cs" />
+    <Compile Include="AccountModelDO_NOT_USE\AccountEdit.cs" />
+    <Compile Include="AccountModelDO_NOT_USE\AccountListItem.cs" />
     <Compile Include="ProductModel\ProductListItem.cs" />
     <Compile Include="ProductModel\ProductAdd.cs" />
     <Compile Include="ProductModel\ProductEdit.cs" />
@@ -73,6 +70,12 @@
     <Compile Include="SavedPaymentModel\SavedPaymentInformationCreate.cs" />
     <Compile Include="SavedPaymentModel\SavedPaymentInformationEdit.cs" />
     <Compile Include="SavedPaymentModel\SavedPaymentInformationListItem.cs" />
+    <Compile Include="ServiceModel\ServiceCreate.cs" />
+    <Compile Include="ServiceModel\ServiceEdit.cs" />
+    <Compile Include="ServiceModel\ServiceListItem.cs" />
+    <Compile Include="ServiceReviewModel\ServiceReviewCreate.cs" />
+    <Compile Include="ServiceReviewModel\ServiceReviewEdit.cs" />
+    <Compile Include="ServiceReviewModel\ServiceReviewListItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -84,6 +87,7 @@
       <Name>Over9000.Data</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

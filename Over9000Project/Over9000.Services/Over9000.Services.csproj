@@ -57,8 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccountHistoryServices.cs" />
-    <Compile Include="AccountServices.cs" />
+    <Compile Include="AccountServicesDO_NOT_USE.cs" />
     <Compile Include="ProductReviewsServices.cs" />
     <Compile Include="ProductServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
