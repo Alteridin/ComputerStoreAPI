@@ -8,5 +8,8 @@ namespace Over9000.Models
 {
     public class AccountEdit
     {
+        public int AccountId { get; set; }
+        public string UserName { get; set; }
+        public string Email { get; set; }
     }
 }
