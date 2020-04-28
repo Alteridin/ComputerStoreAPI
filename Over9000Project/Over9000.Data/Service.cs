@@ -19,6 +19,8 @@ namespace Over9000.Data
         [Required]
         public string ServiceDescription { get; set; }
         [Required]
+        public DateTimeOffset CreatedUtc { get; set; }
+        public DateTimeOffset ModifiedUtc { get; set; }
         public int ServiceReviewId { get; set; }
         [ForeignKey(nameof(ServiceReviewId))]
         public virtual ServiceReview ServiceReview { get; set; }

@@ -17,5 +17,8 @@ namespace Over9000.Data
         public string ServiceReviewText { get; set; }
         [Required]
         public int ServiceReviewStars { get; set; }
+        [Required]
+        public DateTimeOffset CreatedUtc { get; set; }
+        public DateTimeOffset ModifiedUtc { get; set; }
     }
 }
