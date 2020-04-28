@@ -13,9 +13,11 @@ namespace Over9000.Data
         [Key]
         public int ServiceId { get; set; }
         [Required]
+        public Guid ServiceOwnerId { get; set; }
+        [Required]
         public string ServiceName { get; set; }
         [Required]
-        public int ServicePrice { get; set; }
+        public decimal ServicePrice { get; set; }
         [Required]
         public string ServiceDescription { get; set; }
         [Required]

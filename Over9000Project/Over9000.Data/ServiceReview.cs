@@ -12,6 +12,8 @@ namespace Over9000.Data
         [Key]
         public int ServiceReviewId { get; set; }
         [Required]
+        public Guid ServiceReviewOwnerId { get; set; }
+        [Required]
         public string ServiceReviewTitle { get; set; }
         [Required]
         public string ServiceReviewText { get; set; }

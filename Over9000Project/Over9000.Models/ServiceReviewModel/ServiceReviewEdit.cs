@@ -9,6 +9,8 @@ namespace Over9000.Models.ServiceReviewModel
 {
     public class ServiceReviewEdit
     {
+        [Display(Name = "Service Review Id")]
+        public int ServiceReviewId { get; set; }
         [Required]
         [MinLength(2, ErrorMessage = "Please enter at least 2 characters.")]
         [MaxLength(100, ErrorMessage = "Please enter less than 100 characters.")]

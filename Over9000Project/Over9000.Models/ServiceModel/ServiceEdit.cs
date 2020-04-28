@@ -9,6 +9,8 @@ namespace Over9000.Models.ServiceModel
 {
     public class ServiceEdit
     {
+        [Display(Name = "Service Id")]
+        public int ServiceId { get; set; }
         [Required]
         [MinLength(2, ErrorMessage = "Please enter at least 2 characters.")]
         [MaxLength(100, ErrorMessage = "Please enter less than 100 characters.")]
