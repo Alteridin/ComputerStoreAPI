@@ -15,12 +15,13 @@ namespace Over9000.Services
         {
             _paymentId = paymentId;
         }
-        public bool CreateReply(SavedPaymentInformationCreate model)
+        public bool CreatePayment(SavedPaymentInformationCreate model)
         {
             var entity =
                 new SavedPaymentInformation()
                 {
                     SavedPaymentInformationId = _paymentId,
+                    CardNumber = model.CardNumber,
                     SavedPaymentInformationName = model.SavedPaymentInformationName,
                     ExpirationDate = model.ExpirationDate,
                     CVV = model.CVV
@@ -31,7 +32,7 @@ namespace Over9000.Services
                 return ctx.SaveChanges() == 1;
             }
         }
-        public IEnumerable<SavedPaymentInformationListItem> GetReply()
+        public IEnumerable<SavedPaymentInformationListItem> GetPayment()
         {
             using (var ctx = new ApplicationDbContext())
             {
@@ -45,6 +46,7 @@ namespace Over9000.Services
                         {
                             
                             SavedPaymentInformationId = e.SavedPaymentInformationId,
+                            CardNumber = e.CardNumber,
                             SavedPaymentInformationName = e.SavedPaymentInformationName,
                             ExpirationDate = e.ExpirationDate,
                             CVV = e.CVV

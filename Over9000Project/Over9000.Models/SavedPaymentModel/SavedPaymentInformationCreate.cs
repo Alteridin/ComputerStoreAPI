@@ -11,6 +11,8 @@ namespace Over9000.Models
     {
         public int SavedPaymentInformationId { get; set; }
         [Required]
+        public int CardNumber { get; set; }
+        [Required]
         public string SavedPaymentInformationName { get; set; }
         [Required]
         public DateTime ExpirationDate { get; set; }
