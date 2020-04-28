@@ -22,7 +22,5 @@ namespace Over9000.Models.ServiceModel
         [Display(Name = "Date Created")]
         public DateTimeOffset CreatedUtc { get; set; }
         public int ServiceReviewId { get; set; }
-        public string ServiceReviewTitle { get; set; }
-        public int ServiceReviewStars { get; set; }
     }
 }

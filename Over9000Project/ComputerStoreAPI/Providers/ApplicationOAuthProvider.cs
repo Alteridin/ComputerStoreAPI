@@ -10,6 +10,7 @@ using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using ComputerStoreAPI.Models;
+using Over9000.Data;
 
 namespace ComputerStoreAPI.Providers
 {
