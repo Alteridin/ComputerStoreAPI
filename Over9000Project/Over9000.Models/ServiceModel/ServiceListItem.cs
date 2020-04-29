@@ -9,7 +9,7 @@ namespace Over9000.Models.ServiceModel
 {
     public class ServiceListItem
     {
-        [Display(Name = "Service Id")]
+        [Display(Name = "Service ID")]
         public int ServiceId { get; set; }
         [Display(Name = "Service Name")]
         public string ServiceName { get; set; }
@@ -19,7 +19,9 @@ namespace Over9000.Models.ServiceModel
         public string ServiceDescription { get; set; }
         [Display(Name = "Date Created")]
         public DateTimeOffset CreatedUtc { get; set; }
+        [Display(Name = "Modified Date")]
         public DateTimeOffset ModifiedUtc { get; set; }
+        [Display(Name = "Service Review ID")]
         public int ServiceReviewId { get; set; }
     }
 }

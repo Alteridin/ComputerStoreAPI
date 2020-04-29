@@ -9,7 +9,7 @@ namespace Over9000.Models.ServiceModel
 {
     public class ServiceEdit
     {
-        [Display(Name = "Service Id")]
+        [Display(Name = "Service ID")]
         public int ServiceId { get; set; }
         [Required]
         [MinLength(2, ErrorMessage = "Please enter at least 2 characters.")]
@@ -23,5 +23,7 @@ namespace Over9000.Models.ServiceModel
         public string ServiceDescription { get; set; }
         [Display(Name = "Date Modified")]
         public DateTimeOffset ModifiedUtc { get; set; }
+        [Display(Name = "Service Review ID")]
+        public int ServiceReviewId { get; set; }
     }
 }

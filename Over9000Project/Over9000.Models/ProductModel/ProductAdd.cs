@@ -23,5 +23,7 @@ namespace Over9000.Models
         public int ProductReviewId { get; set; }
         [Display(Name = "Date Created")]
         public DateTimeOffset CreatedUtc { get; set; }
+        [Display(Name = "Product ID")]
+        public int ProductId { get; set; }
     }
 }

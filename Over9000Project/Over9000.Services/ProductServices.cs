@@ -58,6 +58,7 @@ namespace Over9000.Services
                 entity.ProductPrice = model.ProductPrice;
                 entity.ProductDescription = model.ProductDescription;
                 entity.ModifiedUtc = DateTimeOffset.UtcNow;
+                entity.ProductReviewId = model.ProductReviewId;
                 return ctx.SaveChanges() == 1;
             }
         }
