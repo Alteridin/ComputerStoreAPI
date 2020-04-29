@@ -12,6 +12,8 @@ namespace Over9000.Data
         [Key]
         public int ProductReviewId { get; set; }
         [Required]
+        public Guid ReviewOwnerId { get; set; }
+        [Required]
         public string ReviewTitle { get; set; }
         [Required]
         public string ReviewText { get; set; }
