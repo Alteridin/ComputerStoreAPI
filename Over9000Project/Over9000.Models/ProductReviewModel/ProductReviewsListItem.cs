@@ -9,6 +9,8 @@ namespace Over9000.Models
 {
     public class ProductReviewsListItem
     {
+        [Display(Name = "Product Review ID")]
+        public int ProductReviewId { get; set; }
         [Display(Name = "Product Review Title")]
         public string ReviewTitle { get; set; }
         [Display(Name = "Product Review Text")]

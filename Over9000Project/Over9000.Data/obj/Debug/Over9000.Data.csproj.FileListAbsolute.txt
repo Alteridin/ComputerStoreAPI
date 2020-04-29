@@ -71,3 +71,6 @@ C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Projec
 C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.Migrations.InitialCreate.resources
 C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.csproj.GenerateResource.cache
 C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.Migrations.initmigration.resources
+C:\Users\Carson Blair\Source\Repos\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.Migrations.InitialCreate.resources
+C:\Users\Carson Blair\Source\Repos\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.Migrations.initmigration.resources
+C:\Users\Carson Blair\Source\Repos\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.csproj.GenerateResource.cache
