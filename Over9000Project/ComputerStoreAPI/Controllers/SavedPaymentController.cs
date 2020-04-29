@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Microsoft.AspNet.Identity;
+using Over9000.Models;
+using Over9000.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -9,31 +12,29 @@ namespace ComputerStoreAPI.Controllers
 {
     public class SavedPaymentController : ApiController
     {
-        // GET api/<controller>
-        public IEnumerable<string> Get()
+        private SavedPaymentInformationServices CreatePayment()
         {
-            return new string[] { "value1", "value2" };
+            var ownerId = Guid.Parse(User.Identity.GetUserId());
+            var pService = new SavedPaymentInformationServices(ownerId);
+            return pService;
         }
-
-        // GET api/<controller>/5
-        public string Get(int id)
+        public IHttpActionResult Get()
         {
-            return "value";
+            SavedPaymentInformationServices payService = CreatePayment();
+            var pay = payService.GetPayment();
+            return Ok(pay);
         }
-
-        // POST api/<controller>
-        public void Post([FromBody]string value)
+        public IHttpActionResult Post(SavedPaymentInformationCreate pay)
         {
-        }
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-        // PUT api/<controller>/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
+            var service = CreatePayment();
 
-        // DELETE api/<controller>/5
-        public void Delete(int id)
-        {
+            if (!service.CreatePayment(pay))
+                return InternalServerError();
+
+            return Ok();
         }
     }
 }

@@ -1,2 +1,19 @@
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Models\obj\Debug\Over9000.Models.csprojAssemblyReference.cache
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Models\obj\Debug\Over9000.Models.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\bin\Debug\Over9000.Models.dll.config
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\bin\Debug\Over9000.Models.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\bin\Debug\Over9000.Models.pdb
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\bin\Debug\EntityFramework.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\bin\Debug\Over9000.Data.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\bin\Debug\Over9000.Data.pdb
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\bin\Debug\Over9000.Data.dll.config
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\bin\Debug\EntityFramework.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\obj\Debug\Over9000.Models.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\obj\Debug\Over9000.Models.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\obj\Debug\Over9000.Models.csproj.CopyComplete
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\obj\Debug\Over9000.Models.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Models\obj\Debug\Over9000.Models.pdb

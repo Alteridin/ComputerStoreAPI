@@ -9,7 +9,9 @@ namespace Over9000.Models
 {
     public class SavedPaymentInformationCreate
     {
-        public int SavedPaymentInformationId { get; set; }
+        public Guid OwnerId { get; set; }
+        [Required]
+        public int CardNumber { get; set; }
         [Required]
         public string SavedPaymentInformationName { get; set; }
         [Required]

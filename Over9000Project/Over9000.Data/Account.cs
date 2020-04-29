@@ -19,9 +19,9 @@ namespace Over9000.Data
         [Required]
         public Guid OwnerId { get; set; }
         public DateTimeOffset CreatedUtc { get; set; }
-        public int SavedPaymentInformationId { get; set; }
-        [ForeignKey(nameof(SavedPaymentInformationId))]
-        public virtual SavedPaymentInformation SavedPaymentInformation { get; set; }
+        //public int SavedPaymentInformationId { get; set; }
+        //[ForeignKey(nameof(SavedPaymentInformationId))]
+        //public virtual SavedPaymentInformation SavedPaymentInformation { get; set; }
         public int AccountHistoryId { get; set; }
         [ForeignKey(nameof(AccountHistoryId))]
         public virtual AccountHistory AccountHistory { get; set; }

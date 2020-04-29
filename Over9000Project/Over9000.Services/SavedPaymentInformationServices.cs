@@ -10,17 +10,19 @@ namespace Over9000.Services
 {
     public class SavedPaymentInformationServices
     {
-        private readonly int _paymentId;
-        public SavedPaymentInformationServices(int paymentId)
+        //change paymentId to user
+        private readonly Guid _userId; 
+        public SavedPaymentInformationServices(Guid userId)
         {
-            _paymentId = paymentId;
+            _userId = userId;
         }
-        public bool CreateReply(SavedPaymentInformationCreate model)
+        public bool CreatePayment(SavedPaymentInformationCreate model)
         {
             var entity =
                 new SavedPaymentInformation()
                 {
-                    SavedPaymentInformationId = _paymentId,
+                    OwnerId = _userId,
+                    CardNumber = model.CardNumber,
                     SavedPaymentInformationName = model.SavedPaymentInformationName,
                     ExpirationDate = model.ExpirationDate,
                     CVV = model.CVV
@@ -31,20 +33,21 @@ namespace Over9000.Services
                 return ctx.SaveChanges() == 1;
             }
         }
-        public IEnumerable<SavedPaymentInformationListItem> GetReply()
+        public IEnumerable<SavedPaymentInformationListItem> GetPayment()
         {
             using (var ctx = new ApplicationDbContext())
             {
                 var query =
                     ctx
                     .SavedPaymentInformations
-                    .Where(e => e.SavedPaymentInformationId == _paymentId)
+                    .Where(e => e.OwnerId == _userId)
                     .Select(
                         e =>
                         new SavedPaymentInformationListItem
                         {
-                            
+                            OwnerId = e.OwnerId,                            
                             SavedPaymentInformationId = e.SavedPaymentInformationId,
+                            CardNumber = e.CardNumber,
                             SavedPaymentInformationName = e.SavedPaymentInformationName,
                             ExpirationDate = e.ExpirationDate,
                             CVV = e.CVV

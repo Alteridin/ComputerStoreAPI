@@ -33,38 +33,41 @@ C:\Users\Carson Blair\Source\Repos\ComputerStoreAPI\Over9000Project\Over9000.Dat
 C:\Users\Carson Blair\Source\Repos\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.csproj.CopyComplete
 C:\Users\Carson Blair\Source\Repos\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.dll
 C:\Users\Carson Blair\Source\Repos\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.pdb
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Over9000.Data.dll.config
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Over9000.Data.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Over9000.Data.pdb
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\EntityFramework.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\EntityFramework.SqlServer.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.Security.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Newtonsoft.Json.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Owin.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\System.Net.Http.Formatting.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\System.Web.Http.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\System.Web.Http.Owin.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\EntityFramework.xml
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\EntityFramework.SqlServer.xml
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.xml
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.Security.xml
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Newtonsoft.Json.xml
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\System.Net.Http.Formatting.xml
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\System.Web.Http.xml
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\System.Web.Http.Owin.xml
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.csprojAssemblyReference.cache
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.csproj.CoreCompileInputs.cache
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.csproj.CopyComplete
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.dll
-C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.pdb
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Over9000.Data.dll.config
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Over9000.Data.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Over9000.Data.pdb
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\EntityFramework.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.Security.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Newtonsoft.Json.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Owin.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\System.Net.Http.Formatting.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\System.Web.Http.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\System.Web.Http.Owin.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\EntityFramework.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.Security.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\Newtonsoft.Json.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\System.Net.Http.Formatting.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\System.Web.Http.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\bin\Debug\System.Web.Http.Owin.xml
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.csproj.CopyComplete
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.dll
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.pdb
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.Migrations.InitialCreate.resources
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.csproj.GenerateResource.cache
+C:\ElevenFiftyProjects\SD48-BLUE\ComputerStoreAP\ComputerStoreAPI\Over9000Project\Over9000.Data\obj\Debug\Over9000.Data.Migrations.initmigration.resources
