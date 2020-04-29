@@ -1,0 +1,2 @@
+C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Models\obj\Debug\Over9000.Models.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\Blue Badge\ComputerStoreAPI\Over9000Project\Over9000.Models\obj\Debug\Over9000.Models.csproj.CoreCompileInputs.cache
