@@ -12,6 +12,8 @@ namespace Over9000.Data
         [Key]
         public int SavedPaymentInformationId { get; set; }
         [Required]
+        public Guid OwnerId { get; set; }
+        [Required]
         public int CardNumber { get; set; }
         [Required]
         public string SavedPaymentInformationName { get; set; }

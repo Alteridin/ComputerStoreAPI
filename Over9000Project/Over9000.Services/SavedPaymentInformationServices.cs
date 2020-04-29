@@ -10,17 +10,18 @@ namespace Over9000.Services
 {
     public class SavedPaymentInformationServices
     {
-        private readonly int _paymentId;
-        public SavedPaymentInformationServices(int paymentId)
+        //change paymentId to user
+        private readonly Guid _userId; 
+        public SavedPaymentInformationServices(Guid userId)
         {
-            _paymentId = paymentId;
+            _userId = userId;
         }
         public bool CreatePayment(SavedPaymentInformationCreate model)
         {
             var entity =
                 new SavedPaymentInformation()
                 {
-                    SavedPaymentInformationId = _paymentId,
+                    OwnerId = _userId,
                     CardNumber = model.CardNumber,
                     SavedPaymentInformationName = model.SavedPaymentInformationName,
                     ExpirationDate = model.ExpirationDate,
@@ -39,12 +40,12 @@ namespace Over9000.Services
                 var query =
                     ctx
                     .SavedPaymentInformations
-                    .Where(e => e.SavedPaymentInformationId == _paymentId)
+                    .Where(e => e.OwnerId == _userId)
                     .Select(
                         e =>
                         new SavedPaymentInformationListItem
                         {
-                            
+                            OwnerId = e.OwnerId,                            
                             SavedPaymentInformationId = e.SavedPaymentInformationId,
                             CardNumber = e.CardNumber,
                             SavedPaymentInformationName = e.SavedPaymentInformationName,

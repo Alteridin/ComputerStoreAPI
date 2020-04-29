@@ -14,9 +14,9 @@ namespace ComputerStoreAPI.Controllers
     {
         private SavedPaymentInformationServices CreatePayment()
         {
-            var paymentId = int.Parse(User.Identity.GetUserId());
-            var payService = new SavedPaymentInformationServices(paymentId);
-            return payService;
+            var ownerId = Guid.Parse(User.Identity.GetUserId());
+            var pService = new SavedPaymentInformationServices(ownerId);
+            return pService;
         }
         public IHttpActionResult Get()
         {
