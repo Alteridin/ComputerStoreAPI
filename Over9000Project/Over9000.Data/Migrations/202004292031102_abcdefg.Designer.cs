@@ -7,13 +7,13 @@ namespace Over9000.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.0")]
-    public sealed partial class InitialCreate : IMigrationMetadata
+    public sealed partial class abcdefg : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialCreate));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(abcdefg));
         
         string IMigrationMetadata.Id
         {
-            get { return "202004281834366_InitialCreate"; }
+            get { return "202004292031102_abcdefg"; }
         }
         
         string IMigrationMetadata.Source
