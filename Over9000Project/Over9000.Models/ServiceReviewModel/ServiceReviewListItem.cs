@@ -9,7 +9,7 @@ namespace Over9000.Models.ServiceReviewModel
 {
     public class ServiceReviewListItem
     {
-        [Display(Name = "Service Review Id")]
+        [Display(Name = "Service Review ID")]
         public int ServiceReviewId { get; set; }
         [Display(Name = "Service Review Title")]
         public string ServiceReviewTitle { get; set; }

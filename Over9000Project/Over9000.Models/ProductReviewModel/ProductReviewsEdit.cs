@@ -9,6 +9,7 @@ namespace Over9000.Models
 {
     public class ProductReviewsEdit
     {
+        [Display(Name = "Product Review ID")]
         public int ProductReviewId { get; set; }
         [Required]
         [MinLength(4, ErrorMessage = "Must be at least 4 characters...")]
