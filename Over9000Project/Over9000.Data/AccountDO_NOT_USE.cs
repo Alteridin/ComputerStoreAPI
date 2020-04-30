@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Over9000.Data
+/*namespace Over9000.Data
 {
     public class Account
     {
@@ -29,4 +29,4 @@ namespace Over9000.Data
         [ForeignKey(nameof(ProductReviewsId))]
         public virtual ProductReview ProductReviews { get; set; }
     }
-}
+}*/

@@ -36,5 +36,23 @@ namespace ComputerStoreAPI.Controllers
 
             return Ok();
         }
+
+        public IHttpActionResult Put(SavedPaymentInformationEdit sr)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            var service = CreatePayment();
+            if (!service.UpdatePaymentInformation(sr))
+                return InternalServerError();
+            return Ok();
+        }
+
+        public IHttpActionResult Delete(int id)
+        {
+            var service = CreatePayment();
+            if (!service.DeletePaymentInformation(id))
+                return InternalServerError();
+            return Ok();
+        }
     }
 }
