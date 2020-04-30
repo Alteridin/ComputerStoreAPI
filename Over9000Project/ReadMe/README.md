@@ -5,45 +5,47 @@
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Code Examples](#code-examples)
 * [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+This project is for our Blue Badge with Eleven Fifty Academy. The Web API is based off of a Online Computer Store.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+Successful Postman Attempt 1:
+![Successful Postman Attempt 1](./Assets/Postman1.png)
+Successful Postman Attempt 2:
+![Successful Postman Attempt 2](./Assets/Postman2.png)
+Successful Postman Attempt 3:
+![Successful Postman Attempt 3](./Assets/Postman3.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
-
-## Setup
-Describe how to install / setup your local environement / add link to demo version.
+* Visual Studio Community - Version 16.5.4
 
 ## Code Examples
-Show examples of usage:
-`put-your-code-here`
+Code Example 1:
+![Code Example 1](./Assets/Code1.png)
+Code Example 2:
+![Code Example 2](./Assets/Code2.png)
 
 ## Features
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Add/Remove Products and Services
+* Rate with Stars 1-5 about any Products and Services
+* Create and Read Reviews of any Products and Services
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Create Front-End to be utilized with project.
+* Shopping Cart
 
 ## Status
 Project is: _finished_, with updates coming in the future.
 
 ## Inspiration
-Add here credits. Project inspired by Eleven Fifty Academy and Dragon Ball Z, based on a standard Web API.
+Project inspired by _Eleven Fifty Academy_ and _Dragon Ball Z_, based on a standard Web API.
 
 ## Contact
 Created by Kevin Moore (kevinmoore.tech@gmail.com), Garen Bragg (garen.t.bragg@gmail.com), Carson Blair (cbcarcar@gmail.com).
