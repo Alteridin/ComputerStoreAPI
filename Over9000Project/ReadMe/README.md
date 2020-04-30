@@ -15,7 +15,12 @@
 This project is for our Blue Badge with Eleven Fifty Academy. The Web API is based off of a Online Computer Store.
 
 ## Screenshots
+Successful Postman Attempt 1:
 ![Successful Postman Attempt 1](./Assets/Postman1.png)
+Successful Postman Attempt 2:
+![Successful Postman Attempt 2](./Assets/Postman2.png)
+Successful Postman Attempt 3:
+![Successful Postman Attempt 3](./Assets/Postman3.png)
 
 ## Technologies
 * Tech 1 - version 1.0
@@ -26,8 +31,10 @@ This project is for our Blue Badge with Eleven Fifty Academy. The Web API is bas
 Describe how to install / setup your local environement / add link to demo version.
 
 ## Code Examples
-Show examples of usage:
-`put-your-code-here`
+Code Example 1:
+![Code Example 1](./Assets/ProjectScreenshot1.png)
+Code Example 2:
+![Code Example 2](./Assets/ProjectScreenshot2.png)
 
 ## Features
 List of features ready and TODOs for future development
