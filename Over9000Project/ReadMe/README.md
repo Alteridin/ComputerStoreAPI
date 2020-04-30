@@ -5,7 +5,6 @@
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
 * [Code Examples](#code-examples)
 * [Features](#features)
 * [Status](#status)
@@ -24,12 +23,7 @@ Successful Postman Attempt 3:
 ![Successful Postman Attempt 3](./Assets/Postman3.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
-
-## Setup
-Describe how to install / setup your local environement / add link to demo version.
+* Visual Studio Community - Version 16.5.4
 
 ## Code Examples
 Code Example 1:
