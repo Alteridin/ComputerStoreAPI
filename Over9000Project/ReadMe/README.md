@@ -22,6 +22,8 @@ Successful Postman Attempt 2:
 ![Successful Postman Attempt 2](./Assets/Postman2.png)
 Successful Postman Attempt 3:
 ![Successful Postman Attempt 3](./Assets/Postman3.png)
+Code Example 2:
+![Code Example 2](./Assets/Code2.png)
 
 ## Technologies
 * Tech 1 - version 1.0
@@ -32,8 +34,24 @@ Successful Postman Attempt 3:
 Describe how to install / setup your local environement / add link to demo version.
 
 ## Code Examples
-Code Example 1:
-![Code Example 1](./Assets/CodeExamples/Code1.png)
+Code Example (Create Payment:
+public bool CreatePayment(SavedPaymentInformationCreate model)
+        {
+            var entity =
+                new SavedPaymentInformation()
+                {
+                    OwnerId = _userId,
+                    CardNumber = model.CardNumber,
+                    SavedPaymentInformationName = model.SavedPaymentInformationName,
+                    ExpirationDate = model.ExpirationDate,
+                    CVV = model.CVV
+                };
+            using (var ctx = new ApplicationDbContext())
+            {
+                ctx.SavedPaymentInformations.Add(entity);
+                return ctx.SaveChanges() == 1;
+            }
+        }
 Code Example 2:
 ![Code Example 2](./Assets/Code2.png)
 
