@@ -56,5 +56,27 @@ namespace Over9000.Services
                 return query.ToArray();
             }
         }
+
+        public bool UpdatePaymentInformation(SavedPaymentInformationEdit model)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity = ctx.SavedPaymentInformations.Single(e => e.OwnerId == model.OwnerId && e.OwnerId == _userId);
+                entity.CardNumber = model.CardNumber;
+                entity.SavedPaymentInformationName = model.SavedPaymentInformationName;
+                entity.ExpirationDate = model.ExpirationDate;
+                entity.CVV = model.CVV;
+                return ctx.SaveChanges() == 1;
+            }
+        }
+        public bool DeletePaymentInformation(int payId)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity = ctx.SavedPaymentInformations.Single(e => e.SavedPaymentInformationId == payId && e.OwnerId == _userId);
+                ctx.SavedPaymentInformations.Remove(entity);
+                return ctx.SaveChanges() == 1;
+            }
+        }
     }
 }

@@ -29,5 +29,4 @@ using System.Threading.Tasks;
         [ForeignKey(nameof(ProductReviewsId))]
         public virtual ProductReview ProductReviews { get; set; }
     }
-}
-*/
+}*/
