@@ -33,9 +33,9 @@ Describe how to install / setup your local environement / add link to demo versi
 
 ## Code Examples
 Code Example 1:
-![Code Example 1](./Assets/ProjectScreenshot1.png)
+![Code Example 1](./Assets/Code1.png)
 Code Example 2:
-![Code Example 2](./Assets/ProjectScreenshot2.png)
+![Code Example 2](./Assets/Code2.png)
 
 ## Features
 List of features ready and TODOs for future development
