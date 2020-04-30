@@ -33,7 +33,7 @@ Describe how to install / setup your local environement / add link to demo versi
 
 ## Code Examples
 Code Example 1:
-![Code Example 1](./Assets/Code1.png)
+![Code Example 1](./Assets/CodeExamples/Code1.png)
 Code Example 2:
 ![Code Example 2](./Assets/Code2.png)
 
